@@ -8,6 +8,7 @@ cd $DEVKITPRO
 wget https://github.com/devkitPro/pacman/releases/download/v1.0.0/devkitpro-pacman.deb
 sudo dpkg -i devkitpro-pacman.deb
 sudo dkp-pacman -S devkitA64 --noconfirm
+sudo dkp-pacman -Syu --noconfirm
 rm devkitpro-pacman.deb
 
 # Get latest libnx and overwrite bundled one
